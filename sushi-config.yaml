@@ -3,9 +3,9 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: hl7.fhir.dk.hackathon
-canonical: http://hl7.dk/fhir/hackathon
-name: DKHackathon
+id: hl7.fhir.dk.hackathons
+canonical: http://hl7.dk/fhir/hackathons
+name: DKHackathons
 # title: Example Title
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
