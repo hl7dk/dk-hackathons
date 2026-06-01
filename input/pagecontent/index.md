@@ -29,7 +29,7 @@ The hackathon includes three tracks:
 Two preparatory meetings were held before the hackathon:
 
 - **Webinar 1 - September 22, 9-10am**: General introduction, track overview, and homework.
-- **Webinar 2 - Septemer 29, 1 hour for each track from 9-12am**: Track session, Q&A and homework
+- **Webinar 2 - Septemer 29, 1 hour for each track from 9-12am**: Track session intro, Q&A and homework
 
 Each session will be recorded.
 
