@@ -11,8 +11,8 @@ This hackathon is part of the [Nordic Health Data Hackathons](https://fhir.fi/ha
 The hackathon includes three tracks:
 
 1. **[Agentic Patient Access](track-agentic-patient-access.html)** - Led by Jens Villadsen
-2. **[Telemedicin (beginners)](track-telemedicin.html)** - Led by Kirstine Rosenbeck
-3. **[To be announced](track-comparing-profiles.html)** - Led by someone 
+2. **[Telemedicin (beginners)](track-telemedicine.html)** - Led by Kirstine Rosenbeck
+3. **[To be announced](track-comparing-profiles.html)** - Led by ... 
 
 ### Schedule
 
@@ -53,4 +53,4 @@ HL7 Denmark has a pitch session at eSundhedsobservatoriet on October 7. The resu
 If you have questions, feedback, or run into issues, please reach out:
 
 - [Discussion on FHIR Zulip](??) - #nordics channel
-- PRs to this IG are welcome at [hl7dk/dk-hackathon](https://github.com/hl7dk/dk-hackathon)
+- PRs to this IG are welcome at [hl7dk/dk-hackathons](https://github.com/hl7dk/dk-hackathons)
