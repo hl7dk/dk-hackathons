@@ -1,0 +1,29 @@
+{
+	"resourceType": "ValueSet",
+	"id": "MoodCodes",
+	"url": "http://hl7.dk/fhir/Hackathon-Sep-2022/ValueSet/MoodCodes",
+	"title": "Humør",
+	"status": "active",
+	"description": "Svarmuligheder for humør i forbindelse med psykisk helbred questionnaire hackathon 2022",
+	"compose": {
+		"include": [
+			{
+				"system": "http://hl7.dk/fhir/Hackathon-Sep-2022/CodeSystem/MentalHealthCodes",
+				"concept": [
+					{
+						"code": "b9453f69-31a2-4a67-a453-569d7cd9691a",
+						"display": "Jeg er glad"
+					},
+					{
+						"code": "18b6720d-8ae2-4abf-87e7-c068efb5346c",
+						"display": "Jeg er trist det meste af tiden"
+					},
+					{
+						"code": "f78ce5be-f7d1-4f03-9eed-bd2563466abe",
+						"display": "Jeg er trist hele tiden og har trang til at græde hver dag"
+					}
+				]
+			}
+		]
+	}
+}

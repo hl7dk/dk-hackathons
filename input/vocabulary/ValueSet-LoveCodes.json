@@ -1,0 +1,29 @@
+{
+	"resourceType": "ValueSet",
+	"id": "LoveCodes",
+	"url": "http://hl7.dk/fhir/Hackathon-Sep-2022/ValueSet/LoveCodes",
+	"title": "Kærlighed",
+	"status": "active",
+	"description": "Svarmuligheder for kærlighed i forbindelse med psykisk helbred questionnaire hackathon 2022",
+	"compose": {
+		"include": [
+			{
+				"system": "http://hl7.dk/fhir/Hackathon-Sep-2022/CodeSystem/MentalHealthCodes",
+				"concept": [
+					{
+						"code": "8270c0ae-2ae5-4204-8c12-bd35e61b7498",
+						"display": "Jeg føler mig elsket"
+					},
+					{
+						"code": "2620845c-4831-4291-a02c-b56b2c8908fe",
+						"display": "Jeg føler mig nogle gange elsket"
+					},
+					{
+						"code": "1a705260-cf44-4dd8-83fb-994baf656a6a",
+						"display": "Jeg føler mig ikke elsket"
+					}
+				]
+			}
+		]
+	}
+}

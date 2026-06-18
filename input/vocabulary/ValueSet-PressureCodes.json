@@ -1,0 +1,29 @@
+{
+	"resourceType": "ValueSet",
+	"id": "PressureCodes",
+	"url": "http://hl7.dk/fhir/Hackathon-Sep-2022/ValueSet/PressureCodes",
+	"title": "Pres",
+	"status": "active",
+	"description": "Svarmuligheder for pres i forbindelse med psykisk helbred questionnaire hackathon 2022",
+	"compose": {
+		"include": [
+			{
+				"system": "http://hl7.dk/fhir/Hackathon-Sep-2022/CodeSystem/MentalHealthCodes",
+				"concept": [
+					{
+						"code": "be7fa5d8-ad1f-49c4-9bce-4370c81f6ac9",
+						"display": "Jeg klarer mine opgaver uden at føle mig presset"
+					},
+					{
+						"code": "7cffb548-c0ff-4521-9782-4d862d952885",
+						"display": "Jeg presser mig selv hele tiden for at klare mine daglige opgaver"
+					},
+					{
+						"code": "14293f45-25fc-48a1-b8be-918d44009e91",
+						"display": "Jeg klarer ikke mine daglige opgaver"
+					}
+				]
+			}
+		]
+	}
+}

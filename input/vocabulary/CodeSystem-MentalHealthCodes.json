@@ -1,0 +1,97 @@
+{
+	"resourceType": "CodeSystem",
+	"id": "MentalHealthCodes",
+	"url": "http://hl7.dk/fhir/Hackathon-Sep-2022/CodeSystem/MentalHealthCodes",
+	"version": "1.0.0",
+	"title": "Psykisk helbred koder",
+	"status": "active",
+	"date": "2022-06-17T10:13:23+00:00",
+	"description": "CodeSystem indeholdende valgmuligheder i forbindelse med psykisk helbred spørgeskema til hackathon 2022",
+	"content": "complete",
+	"concept": [
+		{
+			"code": "60e95414-b97d-4197-af85-d5efc5628e86",
+			"display": "Jeg føler mig tæt på mine venner"
+		},
+		{
+			"code": "93105f14-245e-4e66-8db0-86866978de58",
+			"display": "Jeg har venner, men de er ikke tætte mere"
+		},
+		{
+			"code": "597872aa-a00e-4de3-b0a3-03dae9fd890a",
+			"display": "Jeg har ingen venner"
+		},
+		{
+			"code": "bf1232a5-f7fa-470f-9b22-58e850a047a9",
+			"display": "Jeg vil gerne være sammen med andre"
+		},
+		{
+			"code": "48405c96-5f94-4ccf-b9ef-44579da052a8",
+			"display": "Nogle få gange ugentligt har jeg lyst til at være sammen med andre"
+		},
+		{
+			"code": "cbce7f88-408f-45bf-bfcf-5ea995476bb7",
+			"display": "Jeg har aldrig lyst til at være sammen med andre"
+		},
+		{
+			"code": "8270c0ae-2ae5-4204-8c12-bd35e61b7498",
+			"display": "Jeg føler mig elsket"
+		},
+		{
+			"code": "2620845c-4831-4291-a02c-b56b2c8908fe",
+			"display": "Jeg føler mig nogle gange elsket"
+		},
+		{
+			"code": "1a705260-cf44-4dd8-83fb-994baf656a6a",
+			"display": "Jeg føler mig ikke elsket"
+		},
+		{
+			"code": "6eb62a15-8b69-4940-9276-704a0a1c0a60",
+			"display": "Jeg gør det, der forventes"
+		},
+		{
+			"code": "f1898e69-7602-4e4d-9dbb-43deb9a51c2b",
+			"display": "Jeg gør det, der forventes det meste af tiden"
+		},
+		{
+			"code": "bd91207b-2ade-4d91-871f-8c64f32c9782",
+			"display": "Jeg gør ikke det, der forventes"
+		},
+		{
+			"code": "be7fa5d8-ad1f-49c4-9bce-4370c81f6ac9",
+			"display": "Jeg klarer mine opgaver uden at føle mig presset"
+		},
+		{
+			"code": "7cffb548-c0ff-4521-9782-4d862d952885",
+			"display": "Jeg presser mig selv hele tiden for at klare mine daglige opgaver"
+		},
+		{
+			"code": "14293f45-25fc-48a1-b8be-918d44009e91",
+			"display": "Jeg klarer ikke mine daglige opgaver"
+		},
+		{
+			"code": "a5341a86-677d-4d53-84a1-498dc1a4ed42",
+			"display": "Jeg føler mig klar og frisk de fleste dage"
+		},
+		{
+			"code": "ea31af7a-cf51-4b53-b4d2-bef393b42946",
+			"display": "Jeg har følt mig uoplagt et par gange om ugen"
+		},
+		{
+			"code": "6f4db47c-cf6a-44c4-b434-aa6edec6e064",
+			"display": "Jeg er hele tiden træt"
+		},
+		{
+			"code": "b9453f69-31a2-4a67-a453-569d7cd9691a",
+			"display": "Jeg er glad"
+		},
+		{
+			"code": "18b6720d-8ae2-4abf-87e7-c068efb5346c",
+			"display": "Jeg er trist det meste af tiden"
+		},
+		{
+			"code": "f78ce5be-f7d1-4f03-9eed-bd2563466abe",
+			"display": "Jeg er trist hele tiden og har trang til at græde hver dag"
+		}
+	]
+}

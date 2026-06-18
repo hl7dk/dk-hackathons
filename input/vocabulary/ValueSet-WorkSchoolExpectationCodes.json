@@ -1,0 +1,29 @@
+{
+	"resourceType": "ValueSet",
+	"id": "WorkSchoolExpectationCodes",
+	"url": "http://hl7.dk/fhir/Hackathon-Sep-2022/ValueSet/WorkSchoolExpectationCodes",
+	"title": "Arbejde/skole forventning",
+	"status": "active",
+	"description": "Svarmuligheder for arbejde/skole forventning i forbindelse med psykisk helbred questionnaire hackathon 2022",
+	"compose": {
+		"include": [
+			{
+				"system": "http://hl7.dk/fhir/Hackathon-Sep-2022/CodeSystem/MentalHealthCodes",
+				"concept": [
+					{
+						"code": "6eb62a15-8b69-4940-9276-704a0a1c0a60",
+						"display": "Jeg gør det, der forventes"
+					},
+					{
+						"code": "f1898e69-7602-4e4d-9dbb-43deb9a51c2b",
+						"display": "Jeg gør det, der forventes det meste af tiden"
+					},
+					{
+						"code": "bd91207b-2ade-4d91-871f-8c64f32c9782",
+						"display": "Jeg gør ikke det, der forventes"
+					}
+				]
+			}
+		]
+	}
+}
