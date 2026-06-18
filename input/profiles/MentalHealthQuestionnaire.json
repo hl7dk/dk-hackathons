@@ -1,0 +1,78 @@
+{
+	"resourceType": "Questionnaire",
+	"id": "MentalHealthQuestionnaire",
+	"url": "http://hl7.org/fhir/Questionnaire/MentalHealthQuestionnaire",
+	"title": "Psykisk helbred questionnaire",
+	"description":"Spørgeskema der undersøger psykisk helbred for børn og unge, der er i risiko for at udvikle depression eller angst",
+	"experimental": true,
+	"status": "draft",
+	"subjectType": [
+		"Patient"
+	],
+	"date": "2022-06-17",
+	"item": [
+		{
+			"linkId": "1",
+			"text": "Fællesskab",
+			"type": "group",
+			"item": [
+				{
+					"linkId": "1.1",
+					"text": "Venskaber",
+					"type": "choice",
+					"answerValueSet": "http://hl7.dk/fhir/Hackathon-Sep-2022/ValueSet/FriendshipCodes"
+				},
+				{
+					"linkId": "1.2",
+					"text": "Lyst til at være sammen med andre",
+					"type": "choice",
+					"answerValueSet": "http://hl7.dk/fhir/Hackathon-Sep-2022/ValueSet/DesireToBeWithOthersCodes"
+				},
+				{
+					"linkId": "1.3",
+					"text": "Kærlighed",
+					"type": "choice",
+					"answerValueSet": "http://hl7.dk/fhir/Hackathon-Sep-2022/ValueSet/LoveCodes"
+				}
+			]
+		},
+		{
+			"linkId": "2",
+			"text": "Daglige opgaver",
+			"type": "group",
+			"item": [
+				{
+					"linkId": "2.1",
+					"text": "Arbejde/skole forventning",
+					"type": "choice",
+					"answerValueSet": "http://hl7.dk/fhir/Hackathon-Sep-2022/ValueSet/WorkSchoolExpectationCodes"
+				},
+				{
+					"linkId": "2.2",
+					"text": "Pres",
+					"type": "choice",
+					"answerValueSet": "http://hl7.dk/fhir/Hackathon-Sep-2022/ValueSet/PressureCodes"
+				}
+			]
+		},
+		{
+			"linkId": "3",
+			"text": "Følelser",
+			"type": "group",
+			"item": [
+				{
+					"linkId": "3.1",
+					"text": "Oplagthed",
+					"type": "choice",
+					"answerValueSet": "http://hl7.dk/fhir/Hackathon-Sep-2022/ValueSet/EnergyCodes"
+				},
+				{
+					"linkId": "3.2",
+					"text": "Humør",
+					"type": "choice",
+					"answerValueSet": "http://hl7.dk/fhir/Hackathon-Sep-2022/ValueSet/MoodCodes"
+				}
+			]
+		}
+	]
+}
