@@ -1,0 +1,29 @@
+{
+	"resourceType": "ValueSet",
+	"id": "EnergyCodes",
+	"url": "http://hl7.dk/fhir/Hackathon-Sep-2022/ValueSet/EnergyCodes",
+	"title": "Oplagthed",
+	"status": "active",
+	"description": "Svarmuligheder for oplagthed i forbindelse med psykisk helbred questionnaire hackathon 2022",
+	"compose": {
+		"include": [
+			{
+				"system": "http://hl7.dk/fhir/Hackathon-Sep-2022/CodeSystem/MentalHealthCodes",
+				"concept": [
+					{
+						"code": "a5341a86-677d-4d53-84a1-498dc1a4ed42",
+						"display": "Jeg føler mig klar og frisk de fleste dage"
+					},
+					{
+						"code": "ea31af7a-cf51-4b53-b4d2-bef393b42946",
+						"display": "Jeg har følt mig uoplagt et par gange om ugen"
+					},
+					{
+						"code": "6f4db47c-cf6a-44c4-b434-aa6edec6e064",
+						"display": "Jeg er hele tiden træt"
+					}
+				]
+			}
+		]
+	}
+}
