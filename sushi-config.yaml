@@ -57,8 +57,6 @@ pages:
     title: "Track 2: Telemedicine"
   track-comparing-profiles.md:
     title: "Track 3: To be announced"
-  artifacts.md:
-    title: Artifacts
   results.md:
     title: Results
 
@@ -68,6 +66,7 @@ menu:
   Agentic Patient Access: track-agentic-patient-access.html
   Telemedicine: track-telemedicine.html
   To be announced: track-comparing-profiles.html
+  Artifacts: artifacts.html
   Results: results.html
 #
 #
