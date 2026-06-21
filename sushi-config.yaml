@@ -20,6 +20,9 @@ publisher:
   url: http://www.hl7.dk
   email: dk-affiliate@hl7.dk
 
+dependencies:
+  hl7.fhir.dk.core: 3.6.0
+
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
@@ -54,6 +57,8 @@ pages:
     title: "Track 2: Telemedicine"
   track-comparing-profiles.md:
     title: "Track 3: To be announced"
+  artifacts.md:
+    title: Artifacts
   results.md:
     title: Results
 
