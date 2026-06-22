@@ -12,4 +12,4 @@ This page consolidates the outcomes from all three tracks of the Vitalis Hackath
 
 
 
-### Track 3: Comparing National and EU FHIR Base Profiles
+### Track 3: 

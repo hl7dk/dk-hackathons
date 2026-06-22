@@ -12,7 +12,7 @@ The hackathon includes three tracks:
 
 1. **[Agentic Patient Access](track-agentic-patient-access.html)** - Led by Jens Villadsen
 2. **[Telemedicin (beginners)](track-telemedicine.html)** - Led by Kirstine Rosenbeck
-3. **[To be announced](track-comparing-profiles.html)** - Led by ... 
+3. **[To be announced](track-3.html)** - Led by ... 
 
 ### Schedule
 
