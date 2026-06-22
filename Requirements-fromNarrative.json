@@ -1,7 +1,7 @@
 {
   "resourceType" : "Requirements",
   "id" : "fromNarrative",
-  "url" : "http://hl7.dk/fhir/hackathon/Requirements/fromNarrative",
+  "url" : "http://hl7.dk/fhir/hackathons/Requirements/fromNarrative",
   "name" : "FromNarrative",
   "title" : "Narrative Conformance Statements",
   "status" : "active",

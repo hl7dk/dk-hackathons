@@ -6,15 +6,15 @@
 id: hl7.fhir.dk.hackathons
 canonical: http://hl7.dk/fhir/hackathons
 name: DKHackathons
-# title: Example Title
+title: Danish Hackathon 2026
 # description: Example Implementation Guide for getting started with SUSHI
-status: draft # draft | active | retired | unknown
-version: 0.1.0
+status: active # draft | active | retired | unknown
+version: 1.0.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2026+
-releaseLabel: ci-build
+releaseLabel: Release
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
-# jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+jurisdiction: urn:iso:std:iso:3166#DK "Denmark"
 publisher:
   name: HL7 Denmark
   url: http://www.hl7.dk
@@ -65,7 +65,7 @@ menu:
   Preparation: preparation.html
   Agentic Patient Access: track-agentic-patient-access.html
   Telemedicine: track-telemedicine.html
-  To be announced: track-comparing-profiles.html
+  Track 3: track-3.html
   Artifacts: artifacts.html
   Results: results.html
 #
