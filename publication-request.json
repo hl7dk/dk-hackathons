@@ -19,5 +19,8 @@
   "ci-build": "https://build.fhir.org/ig/hl7dk/dk-hackathons",
   "title": "HL7 FHIR Implementation Guide: DK Hackathons",
   "category": "Hackathons",
+  "registry-description": "A FHIR Implementation Guide for the Danish Hackathons community.",
+  "registry-country": "dk",
+  "registry-authority": "HL7 Denmark",
   "introduction": "A FHIR Implementation Guide for the Danish Hackathons community."
 }
