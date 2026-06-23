@@ -21,7 +21,7 @@ publisher:
   email: dk-affiliate@hl7.dk
 
 dependencies:
-  hl7.fhir.dk.core: 3.6.0
+  hl7.fhir.dk.core: 3.7.0
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
