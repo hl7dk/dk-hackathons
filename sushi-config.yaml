@@ -7,7 +7,8 @@ id: hl7.fhir.dk.hackathons
 canonical: http://hl7.dk/fhir/hackathons
 name: DKHackathons
 title: Danish Hackathon 2026
-# description: Example Implementation Guide for getting started with SUSHI
+
+description: A FHIR Implementation Guide for the Danish Hackathons community.
 status: active # draft | active | retired | unknown
 version: 1.0.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
