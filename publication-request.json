@@ -1,0 +1,23 @@
+{
+  "package-id": "hl7.fhir.dk.hackathons",
+  "status": "release",
+  "sequence": "Release",
+  "mode" : "milestone", 
+  "descmd": "@release-notes.md",
+  "first": true,
+
+
+
+  
+  "desc": "DK Hackathons 1.0.0",
+  "version": "1.0.0",
+  "path": "http://hl7.dk/fhir/hackathons/1.0.0",
+ 
+ 
+ 
+ 
+  "_ci-build": "https://build.fhir.org/ig/hl7dk/dk-hackathons",
+  "_title": "HL7 FHIR Implementation Guide: DK Hackathons",
+  "_category": "Hackathons",
+  "_introduction": "A FHIR Implementation Guide for the Danish Hackathons community."
+}
