@@ -31,7 +31,7 @@ The hackathon includes three tracks:
 Two preparatory meetings were held before the hackathon:
 
 - **Webinar 1 - September 22, 9-10am**: General introduction, track overview, and homework.
-    - [Recording from webinar 1 !Video Not included! ](...) 
+    - [Recording from webinar 1 (website)](https://www.youtube.com/watch?v=aD5hMyVGg2Y) 
     - [Slides with practical information (pdf)](documents/Webinar-1-Hackathon-20260922.pdf)
     - [Slides from track 3 - Your Health, Your Data (pdf)](documents/Hackathon_webinar1_track3.pdf)
 
