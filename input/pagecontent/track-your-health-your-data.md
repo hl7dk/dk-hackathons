@@ -23,25 +23,45 @@ This track hopes to demonstrate — at least in prototype form — some of the f
 - Components built independently by different participants can interoperate, at least at the level of exchanging valid FHIR resources against a shared server
 
 
+### User Journey / Persona: Anne Sørensen
+
+As a common scenario, we will be using the case of *Anne Sørensen* moving from Denmark to Germany:
+
+Anne Sørensen is a 41-year-old woman (fictional test persona) who grew up and has lived her whole life in Denmark, but recently moved to Flensburg, Germany, while continuing
+to work in Sønderborg. Her healthcare ties are therefore split — and shifting — between two countries: she holds a Danish pension scheme with private health insurance, keeps
+her dentist and physiotherapist in Denmark near her workplace, but is in the process of switching her general practitioner from her long-standing Danish GP to a new German GP
+in Flensburg. She is under active treatment for hypertension and type 2 diabetes, and self-reports a penicillin allergy that is not recorded in any of her electronic records.
+  
+- Age/ID: 41 years old, CPR 110985-9996
+- Residence: Flensburg, Germany (recently relocated)
+- Work: Sønderborg, Denmark (long-standing workplace, unchanged by the move)
+- Insurance/pension: Danish pension scheme with private health insurance
+- Dentist & physiotherapist: Denmark, near her workplace in Sønderborg
+- General practitioner: currently transitioning — from her Danish GP to a new German GP in Flensburg (a transition period where both relationships may still be valid)
+- Diagnoses: Hypertension (SKS DI109 / ICD-10 I10.9), type 2 diabetes (SKS DE119 / ICD-10 E11.9)
+- Medication: Ramipril 5mg (ATC C09AA05), Metformin 1000mg (ATC A10BA02), Atorvastatin 40mg (ATC C10AA05)
+- Self-reported, not on file anywhere: Penicillin allergy — known only to Anne herself, absent from every system
+
+
 ### The Shared Platform
 
----
+To give participants something to build *towards* and *against*, the track will provide a number of pre-deployed shared FHIR (R4) servers running
+[HAPI FHIR](https://github.com/hapifhir/hapi-fhir). Details about the configuration of each server and its intended use will be published on this
+[platform overview page](https://hl7-your-health.projects.alexandrainst.dk/). This page is work in progress, so please monitor it for changes.
 
-> **⚠️ Preliminary section ⚠️**
+Participants are not required to use these servers. Anyone who prefers to run their own FHIR backend (Medplum, another HAPI FHIR instance, Aidbox, etc.)
+are welcome to do so. The shared servers exist to lower the barrier of entry and to enable inter-component demos.
 
-To give participants something to build *towards* and *against*, the track will provide a pre-deployed shared FHIR (R4) server running [HAPI FHIR](https://github.com/hapifhir/hapi-fhir), configured with:
+A common GitHub repository is set up [here](https://github.com/hl7dk/hackathon-2026-track-3). The intention is that all participants/teams can
+clone this repo, create a folder named after their component, and add contents in a shared code space. Initially, this repository is public,
+to allow all participants to started. As participants join the hackathon track, they will get write permissions to this repo, and we *may* choose
+to close it down to private visibility when the hackathon starts and all relevant participants have been invited in.
 
-- A small set of synthetic test patients (using [dk-core](https://build.fhir.org/ig/hl7dk/dk-core/) Patient profiles)
-- SMART on FHIR authorization enabled
-- A public read endpoint and authenticated write endpoint
+The Anne Sørensen character has been added to MitID, NemLogin and FUT test environments, if anyone would like to play with any of these.
 
-Participants are not required to use this server. Anyone who prefers to run their own FHIR backend (Medplum, another HAPI FHIR instance, Aidbox, etc.) is welcome to do so. The shared server is there to lower the barrier to entry and to enable inter-component demos.
-
-Details of the shared server URL, credentials, and SMART configuration will be shared at the preparatory webinar.
-
-> **⚠️ Preliminary section ⚠️**
-
----
+All participants are asked to join and monitor the conversation on the
+[FHIR Zulip #denmark channel "hackathon 2026 track 3 coordination"](https://chat.fhir.org/#narrow/channel/179182-denmark/topic/hackathon.202026.20track.203.20coordination/with/627790515)
+in order to coordinate as much as possible before the hackathon begins.
 
 
 ### Component Ideas
@@ -80,7 +100,7 @@ The following is an illustrative — not exhaustive — list of components parti
 
 This track deliberately leaves participants free to choose their own focus. There are no required tasks, and there is no expectation that every participant's work will integrate with everyone else's.
 
-That said, there is real value in knowing what others are building — both to avoid duplication and to enable a more interesting closing demo. Before the hackathon, participants are asked to briefly describe their intended component on the [FHIR Zulip #nordics channel](https://chat.fhir.org/#narrow/channel/194447-nordics). The track lead will compile a simple overview and share it at the preparatory webinar.
+That said, there is real value in knowing what others are building — both to avoid duplication and to enable a more interesting closing demo. Before the hackathon, participants are asked to briefly describe their intended component on the [FHIR Zulip #denmark channel "hackathon 2026 track 3 coordination"](https://chat.fhir.org/#narrow/channel/179182-denmark/topic/hackathon.202026.20track.203.20coordination/with/627790515). The track lead will compile a simple overview and share it at the preparatory webinar.
 
 During the closing session, participants who wish to attempt a live integration demo are encouraged to identify potential "connection points" with other components — but this is entirely optional and should not drive scope decisions on the day.
 
@@ -94,7 +114,7 @@ Participants should arrive prepared. Before the hackathon:
 - **Obtain API credentials for your data sources**: If you plan to work with wearable APIs (Withings, Garmin, Fitbit, etc.) or Google Health Connect, register a developer account and obtain OAuth credentials *before* the hackathon.
 - **Prepare test data**: Collect (or fake) some data beforehand, so that you are ready to test and demo the component.
 - **Have a FHIR validator ready**: Either the [online FHIR Validator](https://validator.fhir.org/) or a local installation of the [HL7 FHIR Validator CLI](https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator).
-- **Declare your intent**: Post a brief description of what you plan to build on the [FHIR Zulip #nordics channel](https://chat.fhir.org/#narrow/channel/194447-nordics) before the preparatory webinar.
+- **Declare your intent**: Post a brief description of what you plan to build on the [FHIR Zulip #denmark channel "hackathon 2026 track 3 coordination"](https://chat.fhir.org/#narrow/channel/179182-denmark/topic/hackathon.202026.20track.203.20coordination/with/627790515) before the preparatory webinar.
 
 
 ### Expected Outcomes
