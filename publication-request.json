@@ -4,14 +4,14 @@
   "sequence": "Release",
   "mode" : "milestone", 
   "descmd": "@release-notes.md",
-  "first": true,
+  "first": false,
 
 
 
   
-  "desc": "DK Hackathons 1.0.0",
-  "version": "1.0.0",
-  "path": "http://hl7.dk/fhir/hackathons/1.0.0",
+  "desc": "DK Hackathons 1.0.2",
+  "version": "1.0.2",
+  "path": "http://hl7.dk/fhir/hackathons/1.0.2",
  
  
  

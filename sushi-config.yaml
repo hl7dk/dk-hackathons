@@ -9,11 +9,11 @@ name: DKHackathons
 title: Danish Hackathon 2026
 
 description: A FHIR Implementation Guide for the Danish Hackathons community.
-status: active # draft | active | retired | unknown
-version: 1.0.0
+
+
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2026+
-releaseLabel: Release
+
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 jurisdiction: urn:iso:std:iso:3166#DK "Denmark"
 publisher:
@@ -69,6 +69,20 @@ menu:
   Your Health, Your Data: track-your-health-your-data.html
   Artifacts: artifacts.html
   Results: results.html
+
+
+# ╭────────────────────────────────────────────releasing───────────────────────────────────────────╮
+# │  Variables for release control                                                                 │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+version: 1.0.2
+#Flip status to 'active' for publication. Flip to 'draft' for CI
+status: active
+
+
+#Flip releaseLabel to 'release' for publication. Flip to 'ci-build' for CI
+releaseLabel: release
+#releaseLabel: release
 #
 #
 # The parameters property represents IG.definition.parameter. Rather
