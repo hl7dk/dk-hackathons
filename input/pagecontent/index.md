@@ -36,9 +36,9 @@ Two preparatory meetings were held before the hackathon:
     - [Slides from track 3 - Your Health, Your Data (pdf)](documents/Hackathon_webinar1_track3.pdf)
 
 - **Webinar 2 - Septemer 29, 1 hour for each track from 9-12am**: Track session intro, Q&A and homework
-    - [Recording from Agentic Patient Access](https://youtu.be/io_gsQa4c3Y)
-    - [Recording from Telemedicine (beginners)](https://youtu.be/M0a_QuPEFlI)
-    - [Recording from Your Health, Your Data](https://youtu.be/YB5ZuFefhE8)
+    - [Recording from Agentic Patient Access (website)](https://youtu.be/io_gsQa4c3Y)
+    - [Recording from Telemedicine (beginners) (website)](https://youtu.be/M0a_QuPEFlI)
+    - [Recording from Your Health, Your Data (website)](https://youtu.be/YB5ZuFefhE8)
         - [Slides from track 3 (pdf)](documents/Hackathon_webinar2-track3.pdf)
 
 Each session will be recorded.
