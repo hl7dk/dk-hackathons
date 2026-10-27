@@ -27,7 +27,12 @@ The track provided practical experience with FHIR while encouraging discussions 
 
 ## Track 3: Your Health, Your Data
 
-This track explored how personal health data can be exchanged and reused across different solutions and countries.
+This track explored how a citizen's health data could follow her across a national border, and how she could control access to it. Participants organised into groups of 1–2 people, each building
+a single component against a shared cross-border persona and a common set of three FHIR test servers — standing in for a personal health record, a German GP practice system, and a German hospital
+system, each using a different set of profiles. At the end of the day, the four components were combined into one live demo: starting from data fragments about the citizen spread across the three
+servers, blood-pressure measurements recorded via the existing Telma app and collected in the Danish FUT telemedicine infrastructure (not built during the hackathon) were imported into the
+personal health record; the consent/sharing component was then used to trigger bidirectional exchange between all three systems, with the translation component handling the profile mapping, so
+that all data — both the original fragments and the new measurements — ended up available everywhere. A Swedish health app was finally used to visualise the Telma-derived measurements.
 
 **Key results:**
 - A successful live demonstration of health data exchange from the Danish FUT telemedicine infrastructure to external FHIR servers in Germany and display of values for a German GP and Hospital. 
@@ -35,7 +40,9 @@ This track explored how personal health data can be exchanged and reused across 
 - Mapping of most of the relevant Danish terminology to corresponding German terminology.
 - Successful import and visualisation of the same data in a Swedish application.
 
-The demonstrations highlighted how FHIR can support cross-border interoperability and enable health data to be reused in different healthcare applications.
+The demonstrations highlighted how FHIR can support cross-border interoperability and enable health data to be reused in different healthcare applications; and how four independently built,
+single-purpose components — developed by separate groups with no shared codebase — were composed into one working cross-border demo on the day, a small-scale demonstration that standards-based
+interoperability lets loosely-coupled components deliver working results fast.
 
 ## Key takeaways
 
